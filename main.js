@@ -23,5 +23,5 @@ function showReview() {
   reviewIndex++;
   if (reviewIndex > reviews.length) {reviewIndex = 1}
   reviews[reviewIndex-1].style.display = "block";
-  setTimeout(showReview, 3000); // Change image every 3 seconds
+  setTimeout(showReview, 3000); 
 }
