@@ -48,10 +48,6 @@ button {
   top: 5px;
 }
 
-.testify {
-  background-color: white;
-}
-
 .review-wrap {
   min-height: 30vw;
 }
@@ -153,8 +149,17 @@ h1 {
     background-color: rgb(136, 172, 218); 
     color: #333333;
   }
+
   .flex-col:hover {
       border: 5px solid #333333;
   }
+
+  .flex-container :nth-child(1) {order: 1}
+  .flex-container :nth-child(2) {order: 3}
+  .flex-container :nth-child(3) {order: 2}
+  .flex-container :nth-child(4) {order: 4}
+
+  .flex-container :nth-child(2) {flex: 1 0 100%}
+  .flex-container :nth-child(4) {flex: 1 0 100%}
 
 }
