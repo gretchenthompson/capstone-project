@@ -4,19 +4,11 @@ header {
   top: 0; 
   width: 100%; 
   z-index: 99;
-}
-
-header a:hover {
-  color: black;
+  text-align: center;
 }
 
 .main {
   margin-top: 30px; 
-}
-
-
-header {
-  text-align: center;
 }
 
 body { 
@@ -27,10 +19,6 @@ body {
 
 .whatis {
   background-color: white;
-}
-
-#definition {
-  display: none;
 }
 
 button {
@@ -90,6 +78,9 @@ img {
 .header-content {
   background-color: lightgrey;
   text-align: center;
+  width: calc(90% - 16px);
+  position: relative;
+  left: -8px;
 }
 
 h1 {
@@ -102,12 +93,9 @@ h1 {
 }
 
 .bottom-content {
-  background-color: rgb(70, 241, 99);
+  background-color: rgb(83, 156, 95);
   text-align: center;
 }
-
-
-
 
 /* ///////////// */
 /* media queries */
@@ -148,10 +136,6 @@ h1 {
   h1 {
     background-color: rgb(136, 172, 218); 
     color: #333333;
-  }
-
-  .flex-col:hover {
-      border: 5px solid #333333;
   }
 
   .flex-container :nth-child(1) {order: 1}
