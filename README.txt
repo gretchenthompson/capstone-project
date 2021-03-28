@@ -15,4 +15,6 @@ It will link them to an online scheduling tool.
 - Toggle function to show/hide content
 - Recursive function to rotate thru multiple client reviews
 
+Verified functionality in Chrome, Firefox and Edge.
+
 

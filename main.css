@@ -7,6 +7,18 @@ header {
   text-align: center;
 }
 
+a.button {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+a.button:hover {
+  text-decoration: underline;
+}
+
 .main {
   margin-top: 30px; 
 }
@@ -15,6 +27,7 @@ body {
   font-family: 'Lato', sans-serif;
   line-height: 1.2;
   font-size: 1em;
+  margin-top: 50px;
 }
 
 .whatis {
@@ -78,7 +91,7 @@ img {
 .header-content {
   background-color: lightgrey;
   text-align: center;
-  width: calc(90% - 16px);
+  width: calc(90% - 14px);
   position: relative;
   left: -8px;
 }
@@ -86,6 +99,7 @@ img {
 h1 {
   font-size: 40px;
   background-color: tan;
+  padding: 10px;
 }
 
 .top-content {
@@ -93,8 +107,10 @@ h1 {
 }
 
 .bottom-content {
-  background-color: rgb(83, 156, 95);
+  background-color: #328539;
   text-align: center;
+  padding-top: .25px;
+  padding-bottom: .25px;
 }
 
 /* ///////////// */
@@ -134,8 +150,7 @@ h1 {
 
 @media(min-width: 1024px){
   h1 {
-    background-color: rgb(136, 172, 218); 
-    color: #333333;
+    background-color: #70a8d6; 
   }
 
   .flex-container :nth-child(1) {order: 1}
