@@ -32,26 +32,29 @@ body {
 
 .whatis {
   background-color: white;
+  padding-bottom: 1.5px;
+}
+
+#definition {
+  font-style: italic;
+  line-height: 1.2;
 }
 
 #toggle {
-  border: 0;
+  cursor: pointer;
   background-color: rgb(32, 31, 31);
   color: white;
-  border-radius: 5px;
   font-size: 18px;
+  border: 0;
+  border-radius: 5px;
   margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 #toggle:hover {
   background-color: white;
   color: rgb(32, 31, 31);
   font-weight: bold;
-}
-
-button {
-  cursor: pointer;
-  margin-bottom: 20px;
 }
 
 .reviews-container {
@@ -61,7 +64,10 @@ button {
 .text {
   position: absolute;
   width: 90%;
-  top: 5px;
+}
+
+.client {
+  font-style: italic;
 }
 
 .review-wrap {
@@ -79,7 +85,7 @@ img {
   position: relative;
 }
 
-.kirin {
+.rocks {
   padding-top: 10%;
   background-image: url(./img/kirin.jpg);
   margin-bottom: 25px;
@@ -91,6 +97,7 @@ img {
 
 }
 .succulents {
+  margin-top: 25px;
   padding-top: 10%;
   background-image: url(./img/succulents.jpg);
 }
@@ -132,7 +139,7 @@ h1 {
 /* media queries */
 /* ///////////// */
 
-@media(min-width: 769px) {
+@media(min-width: 768px) {
 
   h1 {
     background-color: rgb(151, 122, 84);
@@ -149,7 +156,7 @@ h1 {
     width: 48%;
   }
 
-  .kirin {
+  .rocks {
     background-position: bottom center;
   }
 
@@ -163,7 +170,7 @@ h1 {
 
 }
 
-@media(min-width: 1024px){
+@media(min-width: 1025px){
   h1 {
     background-color: #70a8d6; 
   }

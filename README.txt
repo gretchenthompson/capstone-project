@@ -12,7 +12,7 @@ It will link them to an online scheduling tool.
 - WAVE(web accessibility evaluation tool powered by WebAIM) shows no errors
 
 ## JS features
-- Toggle function to show/hide content
+- Toggle function to show/hide definition of a defining moment
 - Recursive function to rotate thru multiple client reviews
 
 Verified functionality in Chrome, Firefox and Edge.
