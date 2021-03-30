@@ -19,7 +19,13 @@ a.button:hover {
   text-decoration: underline;
 }
 
-.main {
+h1 {
+  font-size: 40px;
+  background-color: tan;
+  padding: 10px;
+}
+
+main {
   margin-top: 30px; 
 }
 
@@ -30,9 +36,8 @@ body {
   margin-top: 43px;
 }
 
-.whatis {
-  background-color: white;
-  padding-bottom: 1.5px;
+img {
+  max-width: 100%;
 }
 
 #definition {
@@ -57,6 +62,11 @@ body {
   font-weight: bold;
 }
 
+.whatis {
+  background-color: white;
+  padding-bottom: 1.5px;
+}
+
 .reviews-container {
   position: relative;
 }
@@ -64,6 +74,8 @@ body {
 .text {
   position: absolute;
   width: 90%;
+  top: 0;
+  padding-left: 10px;
 }
 
 .client {
@@ -72,10 +84,6 @@ body {
 
 .review-wrap {
   min-height: 30vw;
-}
-
-img {
-  max-width: 100%;
 }
 
 .bg-img {
@@ -90,14 +98,14 @@ img {
   background-image: url(./img/kirin.jpg);
   margin-bottom: 25px;
 }
+
 .candles {
   padding-top: 10%;
   background-image: url(./img/candles.jpg);
   margin-bottom: 25px;
-
 }
+
 .succulents {
-  margin-top: 25px;
   padding-top: 10%;
   background-image: url(./img/succulents.jpg);
 }
@@ -118,12 +126,6 @@ img {
   left: -8px;
 }
 
-h1 {
-  font-size: 40px;
-  background-color: tan;
-  padding: 10px;
-}
-
 .top-content {
   text-align: center;
 }
@@ -138,6 +140,12 @@ h1 {
 /* ///////////// */
 /* media queries */
 /* ///////////// */
+
+@media(max-width: 600px) {
+  .succulents {
+    margin-top: 100px;
+  }
+}
 
 @media(min-width: 768px) {
 
@@ -167,10 +175,10 @@ h1 {
   .succulents {
     background-position: bottom right;
   }
-
 }
 
 @media(min-width: 1025px){
+
   h1 {
     background-color: #70a8d6; 
   }
@@ -179,8 +187,6 @@ h1 {
   .flex-container :nth-child(2) {order: 3}
   .flex-container :nth-child(3) {order: 2}
   .flex-container :nth-child(4) {order: 4}
-
   .flex-container :nth-child(2) {flex: 1 0 100%}
   .flex-container :nth-child(4) {flex: 1 0 100%}
-
 }
