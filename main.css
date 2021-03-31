@@ -141,13 +141,14 @@ img {
 /* media queries */
 /* ///////////// */
 
-@media(max-width: 600px) {
+@media(max-width: 768px) {
+  
   .succulents {
     margin-top: 100px;
   }
 }
 
-@media(min-width: 768px) {
+@media(min-width: 769px) {
 
   h1 {
     background-color: rgb(151, 122, 84);
