@@ -6,8 +6,8 @@ get to know the benefits of massage and contact me.
 It will link them to an online scheduling tool.
 
 ## CSS features
-- Flexbox to change from column in mobile view to row wrap in tablet view
-- nth child to rearrange content on desktop view
+- Flexbox to change from column to row wrap at media query breakpoint 769px   
+- nth child to rearrange content at media query breakpoint 1025px
 - Fixed header on page scroll
 
 ## JS features
